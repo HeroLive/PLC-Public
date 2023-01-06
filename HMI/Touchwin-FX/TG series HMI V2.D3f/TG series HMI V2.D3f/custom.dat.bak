@@ -1,0 +1,295 @@
+[OWNER]
+name = 
+tel = 
+fax = 
+web = 
+license = Xinje Electronic Co., Ltd.
+
+[option]
+SoftwareName = TouchWin Edit Tool
+ManufacturerName = Xinje
+AutoWinName = AutoWin HMI software
+
+[Panel_Serial_Name]
+Tp60 = TP60 Series Touch Panel
+Op60 = OP60 Series Operate Panel
+Mp60 = MP60 Series Touch-Control Panel
+Th60 = TH60 Series Touch Panel
+MH60 = MH60 Series Touch-Control Panel
+TG60 = TG60 Series Touch Panel
+MN60 = MN60 Series Touch-Control Panel
+TN60 = TN60 Series Touch Panel
+TE60 = TE60 Series Touch Panel
+Tw60 = TW60 Series Touch Panel
+Pc = PC HMI Software
+
+[Panel_Model_Name]
+TP460L = TP460-L
+TP560L = TP560-L
+TP560G = TP560-G
+TP560T = TP560/1/2-T
+;TP562T = TP562-T
+TP760T = TP760/5-T
+TP766T = TP766-T
+TP760M = TP760-M
+TPA60L = TPA60-L
+TPA60T = TPA60-T
+TPA61T = TPA61-T
+OP560L = OP560-L
+OP560T = OP560-T
+MP360L = MP360-L
+MP760T = MP760-T (XMP-32)
+TH465M = TH465-MT/UT
+TH765M = B/TH765-N/MT/UT
+TH865M = TH865-MT/UT
+THA61M = THA61-MT/UT
+THA62M = THA62-MT/UT
+THA65M = THA65-MT/UT
+MH765M = B/MH765-M (XB/MH-30)
+TG465 = TG465-MT/UT
+TG765 = TG765-MT/UT/ET/XT
+TG865 = TG865-MT/UT/ET
+TG865_NEW = TG865-MT/UT/ET(N)
+TGA62 = TGA62-MT/UT/ET
+TGA62_NEW = TGA62-MT/UT/ET(N)
+TGA63 = TGA63-MT/UT/ET
+TGC65 = TGC65-MT/UT/ET
+RT800 = RT800
+TN765 = TN765-MT/UT/ET/XT
+TN865 = TN865-MT/UT/ET
+TNA62 = TNA62-MT/UT/ET
+TNA63 = TNA63-MT/UT/ET
+TE765 = TE765-MT/UT/ET 
+TE865_NEW = TE865
+TEA62_NEW = TEA62
+TEC65 = TEC65
+TW760M = TW765-M
+TW865M = TW865-M
+TWA61M = TWA61-M
+Win800X600 = Win 800x600
+Win1024X768 = Win 1024x768
+Win1152X864 = Win 1152x864
+Win1280X600 = Win 1280x600
+Win1280X720 = Win 1280x720
+Win1280X768 = Win 1280x768
+Win1280X800 = Win 1280x800
+Win1280X960 = Win 1280x960
+Win1280X1024 = Win 1280x1024
+Win1360X768 = Win 1360x768
+Win1400X1050 = Win 1400x1050
+Win1440X900 = Win 1440x900
+
+[Device_Name]
+xinje_xc = Thinget XC Series
+xinje_xd = Thinget XD/XE Series
+x_net = Thinget XNet Series
+xinje_K = Thinget FC Series
+mitsubishi = Mitsubishi FX Series
+MITSUBISHI_FX3U_FX3G = Mitsubishi FX3U/G Series
+mitsubishi_Q = Mitsubishi Q Series
+mitsubishi_FXBD = Mitsubishi FX BD(232/485)
+siemens = Siemens S7-200 Series
+S7300_S7400 = Siemens S7-300/400
+omron = Omron CPM/CQM Series
+cp1h = Omron CP/CJ/CS Series
+modbus_rtu = Modbus RTU (Panel is Master)
+Modbus_ASCII = Modbus ASCII (Panel is Master)
+modbusslave = Modbus Slave (Panel is Slave)
+schneider = Schneider (Micro/Neza/Twido)
+AB_DF1 = AB Micrologix,SLC Series (DF1 Full-duplex Protocol)
+ABB = ABB AC500 Series
+emerson = Emerson (EC20)
+saia = SAIA-Burgess PCD Series
+Crouzet = Crouzet Serials
+opto22 = OPTO 22
+rexroth = Bosch Rexroth IndraControl L40
+matsushita = Matsushita (FP0/FP1)
+Keyence = Keyence (KV)
+Fuji = Fuji SPB Series
+idec = IDEC (MicroSmart)
+Koyo = Koyo S Series
+KoyoDirect = Koyo DL Series
+KoyoClick = Koyo Click Series
+Delta = Delta (DVP)
+Facon = FATEK (MU/MA)
+vigor = Vigor VB Series
+TAIAN = TAIAN TP03 Series
+lg_prgm = LS Master-K CPU Direct
+lg_CNet = LS Master-K CNet
+lg_glofa = LS GLOFA CNET
+LG_XGT_PRGM = LS XGT/XGK/XGB CPU Direct
+OEMax = OEMax NX7 Series
+thinget_v5 = Thinget V5 Series Inverter
+mit_trans = Mitsubishi FR Series Inverter
+SamCo_VM05 = Sanken VM05 Inverter
+SamCo_VM06 = Sanken VM06 Inverter
+Rexroth_Inverter = Rexroth FE Series Inverter
+Delta_VFD_M = Delta VFD-M Series Inverter
+Inovance_MD320 = Inovance MD Series Inverter
+Yaskawa_sigma = Yaskawa Sigma Series Servo
+OTIS_LG_SERVO = Higen Servo (FDA)
+IMS_Servo = IMS Servo Controller
+estun = ESTUN Servo
+AIBus = AI Series instrument
+fz_UD = fz_UD
+MemoryLink = MemoryLink (Panel is Slave)
+freetype = Free Type (Panel is Slave)
+;userdefine = User Define Sample
+modbus_Tcp = Modbus_TCP
+S71200 = Siemens S7-1200 Series
+
+[TwinEx]
+number= 7
+[serial1]
+filename = th60
+[serial2]
+filename = mh60
+[serial3]
+filename = tg60
+[serial4]
+filename = te60
+[serial5]
+filename = mn60
+[serial6]
+filename = tn60
+[serial7]
+filename = pc
+
+[tp60_option]
+number = 7
+[tp60_panel1]
+filename = tp460l
+[tp60_panel2]
+filename = tp560l
+[tp60_panel3]
+filename = tp560g
+[tp60_panel4]
+filename = tp560t
+;[tp60_panel5]
+;filename = tp562t
+[tp60_panel5]
+filename = tp760t
+[tp60_panel6]
+filename = tp766t
+;[tp60_panel7]
+;filename = tp760m
+;[tp60_panel8]
+;filename = tpa60l
+;[tp60_panel9]
+;filename = tpa60t
+[tp60_panel7]
+filename = tpa61t
+
+[op60_option]
+number = 2
+[op60_panel1]
+filename = op560l
+[op60_panel2]
+filename = op560t
+
+[mp60_option]
+number = 2
+[mp60_panel1]
+filename = mp360L
+[mp60_panel2]
+filename = mp760T
+
+[th60_option]
+number = 6
+[th60_panel1]
+filename = th465m
+[th60_panel2]
+filename = th765m
+[th60_panel3]
+filename = th865m
+[th60_panel4]
+filename = tha61m
+[th60_panel5]
+filename = tha62m
+[th60_panel6]
+filename = tha65m
+
+[mh60_option]
+number = 1
+[mh60_panel1]
+filename = MH765M
+
+[tg60_option]
+number = 8
+[tg60_panel1]
+filename = tg465
+[tg60_panel2]
+filename = tg765
+[tg60_panel3]
+filename = tg865
+[tg60_panel4]
+filename = tg865_new
+[tg60_panel5]
+filename = tga62
+[tg60_panel6]
+filename = tga62_new
+[tg60_panel7]
+filename = tga63
+[tg60_panel8]
+filename = tgc65
+
+[mn60_option]
+number = 1
+[mn60_panel1]
+filename = RT800
+
+[tn60_option]
+number = 4
+[tn60_panel1]
+filename = tn765
+[tn60_panel2]
+filename = tn865
+[tn60_panel3]
+filename = tna62
+[tn60_panel4]
+filename = tna63
+
+[tn60_option]
+number = 2
+[tn60_panel1]
+filename = tn765
+[tn60_panel2]
+filename = tna62
+
+[te60_option]
+number = 1
+[te60_panel1]
+filename = te765
+;[te60_panel2]
+;filename = te865_new
+;[te60_panel3]
+;filename = teA62_new
+;[te60_panel4]
+;filename = teC65
+
+[pc_option]
+number = 12
+[pc_panel1]
+filename = Win800X600
+[pc_panel2]
+filename = Win1024X768
+[pc_panel3]
+filename = Win1152X864
+[pc_panel4]
+filename = Win1280X600
+[pc_panel5]
+filename = Win1280X720
+[pc_panel6]
+filename = Win1280X768
+[pc_panel7]
+filename = Win1280X800
+[pc_panel8]
+filename = Win1280X960
+[pc_panel9]
+filename = Win1280X1024
+[pc_panel10]
+filename = Win1360X768
+[pc_panel11]
+filename = Win1400X1050
+[pc_panel12]
+filename = Win1440X900
