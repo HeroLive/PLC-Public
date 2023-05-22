@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project filever="1.0">
+	<MergBlockInfo Total="1">
+		<Connection No="1" MaxBufSize="4">
+			<BitBlock>
+				<Block No="0" Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_X_1:0:M:0:0:25600" Len="2" Fast="0" ScnNo="0" />
+				<Block No="1" Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_X_1:0:M:3:0:25600" Len="1" Fast="0" ScnNo="0" />
+			</BitBlock>
+			<ByteBlock />
+			<WordBlock>
+				<Block No="0" Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:HD:22:0:25600" Len="4" Fast="0" ScnNo="0" />
+				<Block No="1" Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:HD:30:0:25600" Len="4" Fast="0" ScnNo="0" />
+				<Block No="2" Addr="Conn:Stat:Reg:Addr:ByOrder:JZ_W_1:0:D:30:0:25600" Len="2" Fast="0" ScnNo="0" />
+			</WordBlock>
+			<DWordBlock />
+		</Connection>
+	</MergBlockInfo>
+</project>

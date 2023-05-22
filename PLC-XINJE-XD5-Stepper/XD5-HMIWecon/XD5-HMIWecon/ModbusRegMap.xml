@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plcdesc filever="1.0">
+<plc plctype="Xinjie XD/XE ModBus"  Type_Ch="信捷 XD/XE系列PLC"  AddrCalcuMode="0" MaxReadLen="32">
+		<wordaddr ResCount="19">
+			<res Reg="D" Jinzhi="d">
+				<Area  AreaType="1" RelReg="4"  BaseAddr="0x0000" Range="0 69999"  dword="0"/>
+			</res>
+			<res Reg="ID" Jinzhi="d">
+				<Area  AreaType="2" RelReg="4"  BaseAddr="0x5000" Range="0 99"  dword="0"/>
+			</res>
+			<res Reg="ID1xx" Jinzhi="d">
+				<Area  AreaType="3" RelReg="4"  BaseAddr="0x5100" Range="0 999"  dword="0"/>
+			</res>
+			<res Reg="ID2xx" Jinzhi="d">
+				<Area  AreaType="4" RelReg="4"  BaseAddr="0x58D0" Range="0 299"  dword="0"/>
+			</res>
+			<res Reg="QD" Jinzhi="d">
+				<Area  AreaType="5" RelReg="4"  BaseAddr="0x6000" Range="0 99"  dword="0"/>
+			</res>
+			<res Reg="QD1xx" Jinzhi="d">
+				<Area  AreaType="6" RelReg="4"  BaseAddr="0x6100" Range="0 999"  dword="0"/>
+			</res>
+			<res Reg="QD2xx" Jinzhi="d">
+				<Area  AreaType="7" RelReg="4"  BaseAddr="0x68D0" Range="0 299"  dword="0"/>
+			</res>
+			<res Reg="SD" Jinzhi="d">
+				<Area  AreaType="8" RelReg="4"  BaseAddr="0x7000" Range="0 4999"  dword="0"/>
+			</res>
+			<res Reg="TD" Jinzhi="d">
+				<Area  AreaType="9" RelReg="4"  BaseAddr="0x8000" Range="0 575"  dword="0"/>
+			</res>
+			<res Reg="CD" Jinzhi="d">
+				<Area  AreaType="10" RelReg="4"  BaseAddr="0x9000" Range="0 575"  dword="0"/>
+			</res>
+			<res Reg="ETD" Jinzhi="d">
+				<Area  AreaType="11" RelReg="4"  BaseAddr="0xA000" Range="0 31"  dword="0"/>
+			</res>
+			<res Reg="HD" Jinzhi="d">
+				<Area  AreaType="12" RelReg="4"  BaseAddr="0xA080" Range="0 24999"  dword="0"/>
+			</res>
+			<res Reg="HSD" Jinzhi="d">
+				<Area  AreaType="13" RelReg="4"  BaseAddr="0xB880" Range="0 1023"  dword="0"/>
+			</res>
+			<res Reg="HTD" Jinzhi="d">
+				<Area  AreaType="14" RelReg="4"  BaseAddr="0xBC80" Range="0 95"  dword="0"/>
+			</res>
+			<res Reg="HCD" Jinzhi="d">
+				<Area  AreaType="15" RelReg="4"  BaseAddr="0xC080" Range="0 95"  dword="0"/>
+			</res>
+			<res Reg="HSCD" Jinzhi="d">
+				<Area  AreaType="16" RelReg="4"  BaseAddr="0xC480" Range="0 31"  dword="0"/>
+			</res>
+			<res Reg="FD" Jinzhi="d">
+				<Area  AreaType="17" RelReg="4"  BaseAddr="0xC4C0" Range="0 8191"  dword="0"/>
+			</res>
+			<res Reg="SFD" Jinzhi="d">
+				<Area  AreaType="18" RelReg="4"  BaseAddr="0xE4C0" Range="0 5999"  dword="0"/>
+			</res>
+			<res Reg="FS" Jinzhi="d">
+				<Area  AreaType="19" RelReg="4"  BaseAddr="0xF4C0" Range="0 47"  dword="0"/>
+			</res>
+		</wordaddr>
+		<bitaddr ResCount="18">
+			<res Reg="M" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="20" RelReg="0"  BaseAddr="0x0000" Range="0 74999"  BInW="0"/>
+			</res>
+			<res Reg="X" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="21" RelReg="0"  BaseAddr="0x5000" Range="0 63"  BInW="0"/>
+			</res>
+			<res Reg="X1xx" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="22" RelReg="0"  BaseAddr="0x5100" Range="0 639"  BInW="0"/>
+			</res>
+			<res Reg="X2xx" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="23" RelReg="0"  BaseAddr="0x58D0" Range="0 191"  BInW="0"/>
+			</res>
+			<res Reg="Y" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="24" RelReg="0"  BaseAddr="0x6000" Range="0 63"  BInW="0"/>
+			</res>
+			<res Reg="Y1xx" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="25" RelReg="0"  BaseAddr="0x6100" Range="0 639"  BInW="0"/>
+			</res>
+			<res Reg="Y2xx" Jinzhi="o" BJinzhi="d"> 
+				<Area  AreaType="26" RelReg="0"  BaseAddr="0x68D0" Range="0 191"  BInW="0"/>
+			</res>
+			<res Reg="S" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="27" RelReg="0"  BaseAddr="0x7000" Range="0 7999"  BInW="0"/>
+			</res>
+			<res Reg="SM" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="28" RelReg="0"  BaseAddr="0x9000" Range="0 4999"  BInW="0"/>
+			</res>
+			<res Reg="T" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="29" RelReg="0"  BaseAddr="0xA000" Range="0 4999"  BInW="0"/>
+			</res>
+			<res Reg="C" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="30" RelReg="0"  BaseAddr="0xB000" Range="0 4999"  BInW="0"/>
+			</res>
+			<res Reg="ET" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="31" RelReg="0"  BaseAddr="0xC000" Range="0 31"  BInW="0"/>
+			</res>
+			<res Reg="SE" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="32" RelReg="0"  BaseAddr="0xC080" Range="0 31"  BInW="0"/>
+			</res>
+			<res Reg="HM" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="33" RelReg="0"  BaseAddr="0xC100" Range="0 11999"  BInW="0"/>
+			</res>
+			<res Reg="HS" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="34" RelReg="0"  BaseAddr="0xD900" Range="0 999"  BInW="0"/>
+			</res>
+			<res Reg="HT" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="35" RelReg="0"  BaseAddr="0xE100" Range="0 1999"  BInW="0"/>
+			</res>
+			<res Reg="HC" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="36" RelReg="0"  BaseAddr="0xE500" Range="0 1999"  BInW="0"/>
+			</res>
+			<res Reg="HSC" Jinzhi="d" BJinzhi="d"> 
+				<Area  AreaType="37" RelReg="0"  BaseAddr="0xE900" Range="0 39"  BInW="0"/>
+			</res>
+		</bitaddr>
+	</plc>
+</plcdesc>

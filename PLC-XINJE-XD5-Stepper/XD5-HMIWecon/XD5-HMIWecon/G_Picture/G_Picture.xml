@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<G_Picture G_PictureVer="2.0">
+	<G_bmplib FileType="1" CurBmpTotal="18" AllBmpTotal="104">
+		<G_bmp Default="1" szFilename="Bmp1" nId="1" nTotalStatus="2" nNewTotalStatus="0">
+			<MulStatus szFilename="Bmp1_0.dat" dwMID="0" />
+			<MulStatus szFilename="Bmp1_1.dat" dwMID="1" />
+		</G_bmp>
+		<G_bmp Default="1" szFilename="Bmp2_0.dat" nId="2" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp3_0.dat" nId="3" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp4_0.dat" nId="4" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp5_0.dat" nId="5" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp6_0.dat" nId="6" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp7_0.dat" nId="7" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp8_0.dat" nId="8" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp9_0.dat" nId="9" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp10_0.dat" nId="10" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp11_0.dat" nId="11" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp12_0.dat" nId="12" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp13_0.dat" nId="13" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp Default="1" szFilename="Bmp14" nId="14" nTotalStatus="2" nNewTotalStatus="0">
+			<MulStatus szFilename="Bmp14_0.dat" dwMID="0" />
+			<MulStatus szFilename="Bmp14_1.dat" dwMID="1" />
+		</G_bmp>
+		<G_bmp IsVector="1" szPath="Button" szFilename="Button0102.svg" nId="101" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp IsVector="1" szPath="Button" szFilename="Button0007.svg" nId="102" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp IsVector="1" szPath="Button" szFilename="Button0005.svg" nId="103" nTotalStatus="1" nNewTotalStatus="0" />
+		<G_bmp IsVector="1" szPath="Button" szFilename="Button0008.svg" nId="104" nTotalStatus="1" nNewTotalStatus="0" />
+	</G_bmplib>
+</G_Picture>
